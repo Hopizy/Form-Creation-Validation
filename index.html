@@ -1,55 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<htmL>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-     <link href="C:\Users\user\alx_html_css\css_basic\base.css" rel="stylesheet">
-    <link href="C:\Users\user\alx_html_css\css_basic\styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="C:\Users\user\Form-Creation-Validation\style.css">
 </head>
-<body class="works_on_smartphone">
-<header>
-    <P><h1>My name is Ighodalo Ibhahe</h1></P>
-    <p><h2>I have a skill in Web Development Environment, Web developer and Customer Relationship Manager</h2></p>
-</header>
-<nav>
-    <ul>
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="">Project</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
-</nav>
-    <section id="introduction"> 
-        <article>
-        <h3>Introduction</h3>
-        <p>I am Ighodalo Ibhahe</p>
-        </article>
-    </section>
-    <section id="projects">
-        <article>
-       <h3>Projects</h3>
-       <p>offline Mobile Learning App</p>
-       </article>
-    </section>
-    <section id="about">
-        <article>
-        <h3>About</h3>
-            <p>I am ighodalo, my skills are ....</p>
-        </article>
-    </section>
-    <section id="contact">
-    <article>
-        <h3>Contact</h3>
-        <p>you can reach here 090344330934
-        and email addreess <a href="mailto:ighodaloibhahe2@gmail.com">ighodaloibhahe2@gmail.com</a>
-        </p>
-    </article>
-    </section>
-    <footer>
-    <p>&copy; My Profolio created by me</p>
-      <p> <a href="" target="_blank">Here</a></p>
-  </footer>
+<body>
+    <form id="registration-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Register</button>
+        <div id="form-feedback"></div>
+    </form>
+    <script src="C:\Users\user\Form-Creation-Validation\script.js"></script>
 </body>
-</htmL>
+</html>
